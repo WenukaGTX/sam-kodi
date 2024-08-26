@@ -1,6 +1,6 @@
-.banner {
-    padding-top: 10rem;
-    padding-bottom: 5rem;
+.banner-min {
+    padding-top: 8rem;
+    padding-bottom: 2rem;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom -1.5rem center;
@@ -38,7 +38,7 @@
     }
 
     h1 {
-        font-size: 4.375rem;
+        font-size: 3rem;
         text-transform: uppercase;
         color: var(--white);
         margin-bottom: 3rem;

@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Link from 'next/link';
 import './navbar.scss';
+import ThemeToggle from '../ThemeToggle';
 
 export default function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg">
+        <nav className="navbar navbar-expand-lg bg-transparent">
             <div className="container">
                 <Link href="/" className="navbar-brand">
                     <Image
@@ -39,9 +40,12 @@ export default function Navbar() {
                         <li className="nav-item">
                             <Link href="/contact" className="nav-link">Contact</Link>
                         </li>
-                        <li className="nav-item text-center">
+                        {/* <li className="nav-item text-center">
                             <Link href="/contact" className="btn btn-primary">Get in touch</Link>
-                        </li>
+                        </li> */}
+                        {/* <li className="nav-item">
+                            <ThemeToggle />
+                        </li> */}
                     </ul>
                 </div>
             </div>

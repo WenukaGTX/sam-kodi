@@ -7,8 +7,8 @@ export default function Banner() {
     return (
         <section className="banner" style={{ backgroundImage: `url(${background.src})` }}>
             <div className="container">
-                <h1>Where design dreams come to life</h1>
-                <Link href="/contact" className="btn btn-primary">Get in touch</Link>
+                <h1>Where design dreams <br className="d-none d-sm-block"/>come to life</h1>
+                <Link href="/contact" className="btn btn-primary btn-lg">Get in touch</Link>
             </div>
         </section>
     )

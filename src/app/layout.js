@@ -1,9 +1,10 @@
+import BootstrapClient from "@/components/BootstrapClient";
 import Footer from "@/components/Footer/Footer";
 import Navbar from "@/components/Navbar/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
-import BootstrapClient from "@/components/bootstrapClient";
 import { Montserrat } from "next/font/google";
 import "./globals.scss";
+import { ThemeProvider } from "next-themes";
 
 const inter = Montserrat({ subsets: ["latin"] });
 
@@ -16,9 +17,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar />
-        {children}
-        <Footer />
+        <ThemeProvider attribute="class">
+          <Navbar />
+          {children}
+          <Footer />
+        </ThemeProvider>
       </body>
       <BootstrapClient />
     </html>

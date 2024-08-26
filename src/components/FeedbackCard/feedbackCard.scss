@@ -1,0 +1,38 @@
+.feedback-card {
+    border-color: var(--light-grey);
+    background-color: var(--lighter-grey);
+
+    .card-body {
+        padding: 1.4rem;
+
+        .user {
+            margin-bottom: 1rem;
+        }
+
+        .feedback-text {
+            font-size: 1rem;
+            margin-bottom: 0;
+        }
+    }
+}
+
+.user {
+    display: flex;
+    align-items: center;
+
+    img {
+        border-radius: 50%;
+        margin-right: 0.8rem;
+    }
+
+    h5 {
+        font-size: 1rem;
+        margin-bottom: 0.1rem;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 0.9rem;
+        margin-bottom: 0;
+    }
+}

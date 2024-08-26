@@ -44,13 +44,11 @@
   --light-grey: #D9D9D9;
   --lighter-grey: #FAFAFA;
   --dark-grey: #7D7D7D;
-
-  --bs-btn-bg: #ED1B24;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
+    --foreground-rgb: #fff;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
 
@@ -74,6 +72,9 @@
     --callout-border-rgb: 108, 108, 108;
     --card-rgb: 100, 100, 100;
     --card-border-rgb: 200, 200, 200;
+
+    --primary-red: #0004ff;
+    color: #fff;
   }
 }
 
@@ -101,5 +102,68 @@ a {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+}
+
+html.dark {
+  .bg-white-x {
+    background-color: #0f0f0f;
+  }
+
+  .bg-grey {
+    background-color: #0f0f0f;
+  }
+
+  body,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .card-body {
+    color: #ffffff;
+  }
+
+  .navbar {
+    .navbar-collapse .navbar-nav {
+      @media (max-width: 768px) {
+        background: rgba(0, 0, 0, 0.9);
+        border-radius: 0.5rem;
+      }
+
+      .nav-item .nav-link {
+        color: #fff;
+
+        &.active {
+          color: #ED1B24;
+        }
+      }
+    }
+
+    .navbar-toggler {
+      .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+      }
+    }
+  }
+
+  .banner::before {
+    opacity: 0.6;
+  }
+
+  .feedback-card {
+    background-color: #0d0d0d;
+    border-color: #2e2e2e;
+  }
+
+  .footer {
+    background-color: #141414 !important;
   }
 }

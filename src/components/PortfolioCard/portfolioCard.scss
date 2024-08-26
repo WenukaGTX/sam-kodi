@@ -1,0 +1,45 @@
+.portfolio-card {
+    border: none;
+    position: relative;
+    margin-bottom: 0.8rem;
+    overflow: hidden;
+    border-radius: 0.15rem;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: var(--black);
+        opacity: 0.3;
+        z-index: 1;
+        transition: 0.2s ease-in-out all;
+    }
+
+    &:hover {
+        &::before {
+            opacity: 0.2;
+        }
+
+        .portfolio-card-img {
+            transform: scale(1.02);
+        }
+    }
+
+    .portfolio-card-img {
+        border-radius: 0.15rem;
+        transition: 0.2s ease-in-out all;
+        object-fit: cover;
+    }
+
+    .card-img-overlay {
+        top: auto;
+        z-index: 1;
+
+        .card-title {
+            margin-bottom: 0.2rem;
+        }
+    }
+}
