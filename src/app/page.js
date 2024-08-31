@@ -1,12 +1,10 @@
-import Banner from "@/components/Banner/Banner";
-import "./page.scss";
-import ServiceItems1 from "@/components/ServiceItems1/ServiceItems1";
-import Portfolio from "@/components/Portfolio/Portfolio";
-import BlogItems from "@/components/BlogItems/BlogItems";
-import Partners from "@/components/Partners/Partners";
 import AboutSection from "@/components/AboutSection/AboutSection";
+import Banner from "@/components/Banner/Banner";
+import BlogItems from "@/components/BlogItems/BlogItems";
+import ServiceItems1 from "@/components/ServiceItems1/ServiceItems1";
 import ServiceItems2 from "@/components/ServiceItems2/ServiceItems2";
 import Subscription from "@/components/Subscription/Subscription";
+import "./page.scss";
 
 export default function Home() {
   return (
