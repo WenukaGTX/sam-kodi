@@ -2,11 +2,14 @@ import BootstrapClient from "@/components/BootstrapClient";
 import Footer from "@/components/Footer/Footer";
 import Navbar from "@/components/Navbar/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Montserrat } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.scss";
 import { ThemeProvider } from "next-themes";
 
-const inter = Montserrat({ subsets: ["latin"] });
+const inter = Poppins({
+  subsets: ["latin"],
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900']
+});
 
 export const metadata = {
   title: "LA7 Interior Studio",
