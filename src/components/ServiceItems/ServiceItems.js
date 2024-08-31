@@ -7,8 +7,8 @@ export default function ServiceItems() {
         <section className="page-section services bg-white-x">
             <div className='container'>
                 <div className="page-header">
-                    <h1>Signature Services</h1>
-                    <p>Curated interior design services for every unique need</p>
+                    <h1>Maximize Your Conversions</h1>
+                    <p>Optimize Every Aspect of Your Business to Turn Visitors into Loyal Customers</p>
                 </div>
                 <div className='row'>
                     <div className='col-md-3 mb-xs-2'>
