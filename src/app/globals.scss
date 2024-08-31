@@ -40,7 +40,7 @@
   --primary-red: #f7245c;
   --primary-hover: #de1a4e;
   --white: #ffffff;
-  --black: #000000;
+  --black: #0f0f0f;
   --light-grey: #D9D9D9;
   --lighter-grey: #FAFAFA;
   --dark-grey: #7D7D7D;
@@ -155,7 +155,7 @@ html.dark {
   }
 
   .banner::before {
-    opacity: 0.6;
+    opacity: 0.95;
   }
 
   .feedback-card {
