@@ -1,5 +1,5 @@
 import BannerMini from "@/components/BannerMini/BannerMini";
-import ServiceItems from "@/components/ServiceItems/ServiceItems";
+import ServiceItems from "@/components/ServiceItems1/ServiceItems";
 import Image from "next/image";
 
 export default function Page() {

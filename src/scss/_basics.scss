@@ -56,6 +56,20 @@
         font-weight: 500;
         color: var(--primary-red);
     }
+
+    &.horizontal-item {
+        display: flex;
+        padding-right: 3rem;
+
+        img {
+            margin-bottom: 0;
+            margin-right: 2rem;
+        }
+
+        .info-item-details {
+            text-align: left;
+        }
+    }
 }
 
 .partner-logos {
