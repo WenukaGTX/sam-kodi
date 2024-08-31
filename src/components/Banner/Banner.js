@@ -15,7 +15,7 @@ export default function Banner() {
                     priority
                     className="banner-image"
                 />
-                <div class="banner-right">
+                <div className="banner-right">
                     <h1>Transform Your Business with Fractional CRO Expertise Tailored for Success</h1>
                     <p>Driving Growth and Refining Business Practices <br className="d-none d-sm-block"/>Through Advanced Sales Approaches</p>
                     <Link href="/contact" className="btn btn-primary btn-lg">Get in touch</Link>

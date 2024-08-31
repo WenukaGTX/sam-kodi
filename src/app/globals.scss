@@ -1,4 +1,4 @@
-@import '../scss/buttons';
+@import '../scss/forms';
 @import '../scss/basics';
 
 :root {
@@ -41,6 +41,7 @@
   --primary-hover: #de1a4e;
   --white: #ffffff;
   --black: #0f0f0f;
+  --black-light: #2a2a2a;
   --light-grey: #D9D9D9;
   --lighter-grey: #FAFAFA;
   --dark-grey: #7D7D7D;
@@ -111,7 +112,7 @@ html.dark {
   }
 
   .bg-grey {
-    background-color: #0f0f0f;
+    background-color: #131313;
   }
 
   body,
