@@ -10,35 +10,9 @@
         }
     }
 
-    @media (min-width: 992px) {
-        height: 5rem;
-
-        .navbar-nav .nav-item {
-            position: relative;
-
-            &+.nav-item {
-                margin-left: 1rem;
-                padding-left: 1rem;
-
-                &:before {
-                    content: '';
-                    width: 0.2rem;
-                    height: 0.2rem;
-                    border-radius: 50%;
-                    background-color: var(--light-grey);
-                    opacity: 0.5;
-                    position: absolute;
-                    top: 50%;
-                    margin-top: -0.1rem;
-                    left: 0;
-                    margin-left: -0.1rem;
-                }
-            }
-        }
-    }
-
     .navbar-brand {
         font-weight: 700;
+        color: var(--white);
 
         &:focus-visible {
             outline: none;
@@ -51,23 +25,41 @@
         margin-left: auto;
         flex-grow: initial;
 
-        .navbar-nav .nav-item {
-            position: relative;
+        .navbar-nav {
+            padding-bottom: 1rem;
 
-            .nav-link {
-                padding: 0.5rem;
-                color: var(--text-color);
-                font-weight: 500;
-                text-align: center;
-                border-radius: 2rem;
-
-                &.active,
-                &:hover {
-                    color: var(--primary-red);
+            .nav-item {
+                position: relative;
+    
+                .nav-link {
+                    padding: 0.5rem;
+                    color: var(--text-color);
+                    font-weight: 500;
+                    text-align: center;
+                    border-radius: 2rem;
+    
+                    &.active,
+                    &:hover {
+                        color: var(--primary-red);
+                    }
+    
+                    &:focus-visible {
+                        box-shadow: rgba(3, 102, 91, 0.3) 0px 0px 0px 3px;
+                    }
                 }
+            }
+        }
+    }
 
-                &:focus-visible {
-                    box-shadow: rgba(3, 102, 91, 0.3) 0px 0px 0px 3px;
+    @media (min-width: 992px) {
+        height: 5rem;
+
+        .navbar-collapse .navbar-nav {
+            padding-bottom: 0;
+
+            .nav-item {
+                &+.nav-item {
+                    margin-left: 1.5rem;
                 }
             }
         }
