@@ -49,7 +49,7 @@ export default function BlogItems() {
                     <div className='col-md-4'>
                         <div className="card feature-card">
                             <Image
-                                src={"/blog-img-3.jfif"}
+                                src={"/blog-img-3.jpg"}
                                 className='img-fluid'
                                 alt="blog image"
                                 width={800}
