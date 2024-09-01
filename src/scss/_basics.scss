@@ -1,6 +1,37 @@
 @media (max-width: 768px) {
+    html {
+        font-size: 18px;
+    }
+
     .mb-xs-2 {
-        margin-bottom: 2rem;
+        margin-bottom: 2rem !important;
+    }
+
+    .mb-xs-4 {
+        margin-bottom: 4rem !important;
+    }
+
+    .banner>.container,
+    .page-section>.container {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .para-text {
+        font-size: 1.5rem;
+    }
+
+    p.w-75,
+    p small.w-75 {
+        width: auto !important;
+    }
+
+    small.w-75 {
+        font-size: 1rem;
+    }
+
+    .text-center-xs {
+        text-align: center;
     }
 }
 
@@ -32,6 +63,17 @@
         line-height: 1.6rem;
         margin-bottom: 0;
     }
+
+    @media (max-width: 768px) {
+        h1 {
+            margin-bottom: 1rem;
+        }
+        
+        p {
+            font-size: 1.5rem;
+            line-height: 1.5;
+        }
+    }
 }
 
 .info-item {
@@ -43,7 +85,7 @@
 
     h5 {
         font-weight: 600;
-        margin-bottom: 0.5rem;
+        margin-bottom: 1rem;
     }
 
     p {
@@ -68,6 +110,25 @@
 
         .info-item-details {
             text-align: left;
+        }
+    }
+
+    @media (max-width: 768px) {
+        h5 {
+            font-size: 1.5rem;
+        }
+
+        p,
+        a {
+            font-size: 1.5rem;
+        }
+
+        &.horizontal-item {
+            padding-right: 0;
+
+            img {
+                margin-right: 1.5rem;
+            }
         }
     }
 }

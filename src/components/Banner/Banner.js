@@ -1,11 +1,10 @@
 import Image from "next/image";
 import Link from 'next/link';
 import './banner.scss';
-import background from '../../../public/banner-1.jpg';
 
 export default function Banner() {
     return (
-        <section className="banner" style={{ backgroundImage: `url(${background.src})` }}>
+        <section className="banner">
             <div className="container">
                 <Image
                     src="/sam-kodi-portrait-1.png"

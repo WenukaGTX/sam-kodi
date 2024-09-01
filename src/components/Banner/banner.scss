@@ -18,17 +18,6 @@
         opacity: 0.5;
     }
 
-    // &::after {
-    //     content: '';
-    //     position: absolute;
-    //     top: 0;
-    //     bottom: 0;
-    //     left: 0;
-    //     right: 0;
-    //     background: rgb(15, 15, 15);
-    //     background: linear-gradient(0deg, rgba(15, 15, 15, 1) 0%, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0) 80%, rgba(15, 15, 15, 1) 100%);
-    // }
-
     &>.container {
         display: flex;
         align-items: center;
@@ -52,6 +41,29 @@
                 font-size: 1.2rem;
                 color: var(--white);
                 margin-bottom: 1.5rem;
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        padding-bottom: 5rem;
+
+        &>.container {
+            .banner-image {
+                display: none;
+            }
+
+            .banner-right {
+                text-align: center;
+                padding-left: 0;
+
+                h1 {
+                    font-size: 2.5rem;
+                }
+
+                .btn-primary {
+                    min-width: 12rem;
+                }
             }
         }
     }

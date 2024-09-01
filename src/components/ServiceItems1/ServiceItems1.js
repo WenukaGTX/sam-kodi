@@ -11,7 +11,7 @@ export default function ServiceItems1() {
                     <p>Optimize every aspect of your business to turn visitors into loyal customers</p>
                 </div>
                 <div className='row'>
-                    <div className='col-md-4 mb-xs-2'>
+                    <div className='col-md-4 mb-xs-4'>
                         <div className='info-item'>
                             <Image
                                 src="/icons/solar_home_light.svg"
@@ -25,7 +25,7 @@ export default function ServiceItems1() {
                             <Link href="/services">Read more</Link>
                         </div>
                     </div>
-                    <div className='col-md-4 mb-xs-2'>
+                    <div className='col-md-4 mb-xs-4'>
                         <div className='info-item'>
                             <Image
                                 src="/icons/solar_sofa-2_light.svg"

@@ -11,7 +11,7 @@ export default function ServiceItems2() {
                     <p>Enhance efficiency & drive sustainable growth with expert operational support</p>
                 </div>
                 <div className='row'>
-                    <div className='col-md-6 mb-4'>
+                    <div className='col-md-6 mb-4 mb-xs-4'>
                         <div className='info-item horizontal-item'>
                             <Image
                                 src="/icons/solar_home_light.svg"
@@ -27,7 +27,7 @@ export default function ServiceItems2() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-6 mb-4'>
+                    <div className='col-md-6 mb-4 mb-xs-4'>
                         <div className='info-item horizontal-item'>
                             <Image
                                 src="/icons/solar_sofa-2_light.svg"
@@ -43,7 +43,7 @@ export default function ServiceItems2() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-6 mb-4'>
+                    <div className='col-md-6 mb-4 mb-xs-4'>
                         <div className='info-item horizontal-item'>
                             <Image
                                 src="/icons/solar_display_light.svg"
@@ -59,7 +59,7 @@ export default function ServiceItems2() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-6 mb-4'>
+                    <div className='col-md-6 mb-4 mb-xs-4'>
                         <div className='info-item horizontal-item'>
                             <Image
                                 src="/icons/solar_display_light.svg"

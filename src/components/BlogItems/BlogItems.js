@@ -13,7 +13,7 @@ export default function BlogItems() {
                 </div>
                 <div className='row'>
                     <div className='col-md-4 mb-xs-2'>
-                        <div className="card mb-xs-3r feature-card">
+                        <div className="card feature-card">
                             <Image
                                 src={"/blog-img-1.png"}
                                 className='img-fluid'
@@ -30,7 +30,7 @@ export default function BlogItems() {
                         </div>
                     </div>
                     <div className='col-md-4 mb-xs-2'>
-                        <div className="card mb-xs-3r feature-card">
+                        <div className="card feature-card">
                             <Image
                                 src={"/blog-img-2.jpg"}
                                 className='img-fluid'
@@ -47,7 +47,7 @@ export default function BlogItems() {
                         </div>
                     </div>
                     <div className='col-md-4'>
-                        <div className="card mb-xs-3r feature-card">
+                        <div className="card feature-card">
                             <Image
                                 src={"/blog-img-3.jfif"}
                                 className='img-fluid'
