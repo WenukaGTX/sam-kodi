@@ -19,7 +19,7 @@ export default function Subscription() {
                         <button type="submit" className="btn btn-primary btn-lg mb-3 btn-w100">Subscribe Now</button>
                     </div>
                 </form>
-                <p className='mb-0'><small className='text-center d-block w-75 mx-auto lh-lg'>By submitting this form you consent to us emailing you occasionally about our products and services. You can unsubscribe from emails at any time, and we will never pass your email to third parties.</small></p>
+                <p className='mt-2 mb-0'><small className='text-center d-block w-75 mx-auto lh-lg'>By submitting this form you consent to us emailing you occasionally about our products and services. You can unsubscribe from emails at any time, and we will never pass your email to third parties.</small></p>
             </div>
         </section>
     )

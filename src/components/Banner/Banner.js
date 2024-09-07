@@ -16,8 +16,8 @@ export default function Banner() {
                 />
                 <div className="banner-right">
                     <h1>Transform Your Business with Fractional CRO <span className="text-primary">Services</span> Tailored for Success</h1>
-                    <p>Driving Growth & Refining Business Practices <br className="d-none d-sm-block"/>Through Advanced Sales <span className="text-primary">& business</span> Approaches</p>
-                    <Link href="/contact" className="btn btn-primary btn-lg">Get in touch</Link>
+                    <p>Driving Growth & Refining Business Practices <br className="d-none d-sm-block" />Through Advanced Sales <span className="text-primary">& business</span> Approaches</p>
+                    <Link href="https://calendly.com/sameeraviraj/30min?month=2024-09" className="btn btn-primary btn-lg" rel="noopener noreferrer" target="_blank">Get in touch</Link>
                 </div>
             </div>
         </section>
