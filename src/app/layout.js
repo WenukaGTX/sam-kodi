@@ -12,8 +12,8 @@ const inter = Poppins({
 });
 
 export const metadata = {
-  title: "LA7 Interior Studio",
-  description: "LA7 is an interior design studio & a construction company",
+  title: "Enki - Fractional CRO Services",
+  description: "Transform Your Business with Fractional CRO Services Tailored for Success. Driving Growth & Refining Business Practices Through Advanced Sales & business Approaches",
 };
 
 export default function RootLayout({ children }) {

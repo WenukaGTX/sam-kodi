@@ -54,7 +54,7 @@ export default function ServiceItems1() {
                         </div>
                     </div>
                 </div>
-                <Link href="https://calendly.com/sameeraviraj/30min?month=2024-09" className="btn btn-primary btn-lg mt-5" rel="noopener noreferrer" target="_blank">Get in touch</Link>
+                <Link href="https://calendly.com/sameeraviraj/30min?month=2024-09" className="btn btn-primary btn-lg mt-5" rel="noopener noreferrer" target="_blank">Book a date</Link>
             </div>
         </section>
     )
