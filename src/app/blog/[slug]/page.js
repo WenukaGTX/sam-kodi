@@ -27,7 +27,7 @@ export default async function Page({ params }) {
               <Image
                 src={`/blog/${frontmatter.image}`}
                 className='img-fluid'
-                alt="blog image"
+                alt={post.frontmatter.title}
                 width={800}
                 height={450}
                 priority

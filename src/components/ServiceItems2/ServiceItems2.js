@@ -15,7 +15,7 @@ export default function ServiceItems2() {
                         <div className='info-item horizontal-item'>
                             <Image
                                 src="/icons/ri_customer-service-2-line.svg"
-                                alt="Home design icon"
+                                alt="Customer service icon"
                                 width={60}
                                 height={60}
                                 priority
@@ -31,7 +31,7 @@ export default function ServiceItems2() {
                         <div className='info-item horizontal-item'>
                             <Image
                                 src="/icons/ant-design_bulb-outlined.svg"
-                                alt="Home design icon"
+                                alt="Bulb icon"
                                 width={60}
                                 height={60}
                                 priority
@@ -47,7 +47,7 @@ export default function ServiceItems2() {
                         <div className='info-item horizontal-item'>
                             <Image
                                 src="/icons/fluent_people-team-add-20-regular.svg"
-                                alt="Home design icon"
+                                alt="Team icon"
                                 width={60}
                                 height={60}
                                 priority
@@ -63,7 +63,7 @@ export default function ServiceItems2() {
                         <div className='info-item horizontal-item'>
                             <Image
                                 src="/icons/streamline_customer-support-1.svg"
-                                alt="Home design icon"
+                                alt="Customer care icon"
                                 width={60}
                                 height={60}
                                 priority

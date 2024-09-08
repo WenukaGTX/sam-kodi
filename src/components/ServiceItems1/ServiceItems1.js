@@ -15,7 +15,7 @@ export default function ServiceItems1() {
                         <div className='info-item'>
                             <Image
                                 src="/icons/bi_bar-chart.svg"
-                                alt="Home design icon"
+                                alt="Bar chart icon"
                                 width={60}
                                 height={60}
                                 priority
@@ -29,7 +29,7 @@ export default function ServiceItems1() {
                         <div className='info-item'>
                             <Image
                                 src="/icons/fluent_people-team-24-regular.svg"
-                                alt="Home design icon"
+                                alt="Team icon"
                                 width={60}
                                 height={60}
                                 priority
@@ -43,7 +43,7 @@ export default function ServiceItems1() {
                         <div className='info-item'>
                             <Image
                                 src="/icons/fluent_flowchart-16-regular.svg"
-                                alt="Home design icon"
+                                alt="Flow chart icon"
                                 width={60}
                                 height={60}
                                 priority

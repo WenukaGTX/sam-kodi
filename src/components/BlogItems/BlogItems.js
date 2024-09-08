@@ -16,7 +16,7 @@ export default function BlogItems() {
                             <Image
                                 src={"/blog/digital-transformation-roadmap-for-success.png"}
                                 className='img-fluid'
-                                alt="blog image"
+                                alt="Digital Transformation"
                                 width={800}
                                 height={200}
                                 priority
@@ -33,7 +33,7 @@ export default function BlogItems() {
                             <Image
                                 src={"/blog/rise-of-remote-work-and-impact-on-sales.png"}
                                 className='img-fluid'
-                                alt="blog image"
+                                alt="The Rise of Remote Work and Its Impact on Sales"
                                 width={800}
                                 height={200}
                                 priority
@@ -50,7 +50,7 @@ export default function BlogItems() {
                             <Image
                                 src={"/blog/leveraging-ai-for-sales-and-business-development.png"}
                                 className='img-fluid'
-                                alt="blog image"
+                                alt="AI for Sales and Business Development"
                                 width={800}
                                 height={200}
                                 priority

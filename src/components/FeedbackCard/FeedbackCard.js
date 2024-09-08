@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Image from "next/image";
 import './feedbackCard.scss';
 
@@ -9,7 +8,7 @@ export default function FeedbackCard(props) {
                 <div className='user'>
                     <Image
                         src={`/${props.userImage}`}
-                        alt=""
+                        alt={props.username}
                         width={50}
                         height={50}
                         priority

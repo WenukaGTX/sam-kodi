@@ -19,21 +19,21 @@ export default function Partners() {
                     />
                     <Image
                         src="https://uptime.app/img/home-page/brands/audible.svg"
-                        alt="Forbes logo"
+                        alt="audible logo"
                         width={169}
                         height={70}
                         priority
                     />
                     <Image
                         src="https://uptime.app/img/home-page/brands/hulu.svg"
-                        alt="Forbes logo"
+                        alt="hulu logo"
                         width={125}
                         height={40}
                         priority
                     />
                     <Image
                         src="https://uptime.app/img/home-page/brands/netflix.svg"
-                        alt="Forbes logo"
+                        alt="netflix logo"
                         width={142}
                         height={40}
                         priority

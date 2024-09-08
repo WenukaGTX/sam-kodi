@@ -20,7 +20,7 @@ export default function Page() {
                 <Image
                   src={`/blog/${post.frontmatter.image}`}
                   className='img-fluid'
-                  alt="blog image"
+                  alt={post.frontmatter.title}
                   width={800}
                   height={200}
                   priority
