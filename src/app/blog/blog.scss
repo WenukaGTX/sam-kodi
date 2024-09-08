@@ -1,0 +1,13 @@
+.blog-post {
+    h5 {
+        margin-bottom: 1rem;
+    }
+
+    p {
+        margin-bottom: 1rem;
+
+        & + h5 {
+            margin-top: 2rem;
+        }
+    }
+}
