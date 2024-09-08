@@ -6,17 +6,17 @@ export default function Footer() {
     return (
         <footer className="footer bg-dark text-white">
             <div className="container">
-                <h4 className="footer-title">SVK</h4>
+                <h4 className="footer-title">Enki</h4>
                 <div className="row">
                     <div className="col-md-3">
                         <ul>
                             <li>Links</li>
                             <li><Link href="/">Home</Link></li>
-                            <li><Link href="/about">About</Link></li>
-                            <li><Link href="/services">Services</Link></li>
-                            <li><Link href="/case-studies">Case Studeis</Link></li>
+                            {/* <li><Link href="/about">About</Link></li> */}
+                            {/* <li><Link href="/services">Services</Link></li> */}
+                            {/* <li><Link href="/case-studies">Case Studeis</Link></li> */}
                             <li><Link href="/blog">Blog</Link></li>
-                            <li><Link href="/faq">FAQs</Link></li>
+                            {/* <li><Link href="/faq">FAQs</Link></li> */}
                             <li><Link href="/contact">Contact</Link></li>
                         </ul>
                     </div>
@@ -31,7 +31,8 @@ export default function Footer() {
                     <div className="col-md-3">
                         <ul>
                             <li>Social media</li>
-                            <li><Link href="https://www.facebook.com/LA7IS">Facebook</Link></li>
+                            <li><Link href="https://www.linkedin.com/in/sameeraviraj/" target='_blank'>Linkedin</Link></li>
+                            <li><Link href="/">Facebook</Link></li>
                             <li><Link href="/">Instagram</Link></li>
                             <li><Link href="/">YouTube</Link></li>
                             <li><Link href="/">TikTok</Link></li>
@@ -46,7 +47,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="footer-bottom">
-                    <p className="text-center"><b>Made in Sri Lanka</b> • Copyright © 2024 SVK. All rights reserved
+                    <p className="text-center"><b>Made in Sri Lanka</b> • Copyright © 2024 Enki. All rights reserved
                     </p>
                 </div>
             </div>
