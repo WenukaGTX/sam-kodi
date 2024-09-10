@@ -14,51 +14,51 @@ export default function BlogItems() {
                     <div className='col-md-4 mb-xs-2'>
                         <div className="card feature-card">
                             <Image
-                                src={"/blog/digital-transformation-roadmap-for-success.png"}
+                                src={"/blog/building-high-performing-sales-team.png"}
                                 className='img-fluid'
-                                alt="Digital Transformation"
+                                alt="Building a High Performing Sales Team"
                                 width={800}
                                 height={200}
                                 priority
                             />
                             <div className="card-body">
-                                <h5 className="card-title">Digital Transformation: A Roadmap for Success</h5>
-                                <p className="card-text">Digital transformation is essential for businesses to remain competitive</p>
-                                <Link href="/blog/digital-transformation-roadmap-for-success" target='_blank'>Read more</Link>
+                                <h5 className="card-title">Shaping Your Startup: Building a High Performing Sales Team</h5>
+                                <p className="card-text">Ideas evolve into products, sparking the launch of a startup</p>
+                                <Link href="/blog/1-building-high-performing-sales-team" target='_blank'>Read more</Link>
                             </div>
                         </div>
                     </div>
                     <div className='col-md-4 mb-xs-2'>
                         <div className="card feature-card">
                             <Image
-                                src={"/blog/rise-of-remote-work-and-impact-on-sales.png"}
+                                src={"/blog/understanding-lean-startups.png"}
                                 className='img-fluid'
-                                alt="The Rise of Remote Work and Its Impact on Sales"
+                                alt="Understanding Lean Startups"
                                 width={800}
                                 height={200}
                                 priority
                             />
                             <div className="card-body">
-                                <h5 className="card-title">The Rise of Remote Work and Its Impact on Sales</h5>
-                                <p className="card-text">Remote work is becoming the new norm in today's business landscape</p>
-                                <Link href="/blog/rise-of-remote-work-and-impact-on-sales" target='_blank'>Read more</Link>
+                                <h5 className="card-title">Understanding Lean Startups</h5>
+                                <p className="card-text">Lean startup methodology has emerged as a transformative approach</p>
+                                <Link href="/blog/2-understanding-lean-startups" target='_blank'>Read more</Link>
                             </div>
                         </div>
                     </div>
                     <div className='col-md-4'>
                         <div className="card feature-card">
                             <Image
-                                src={"/blog/leveraging-ai-for-sales-and-business-development.png"}
+                                src={"/blog/does-your-startup-really-need-investors.png"}
                                 className='img-fluid'
-                                alt="AI for Sales and Business Development"
+                                alt="Does Your Startup Really Need Investors"
                                 width={800}
                                 height={200}
                                 priority
                             />
                             <div className="card-body">
-                                <h5 className="card-title">Leveraging AI for Sales and Business Development</h5>
-                                <p className="card-text">AI is emerging as a game-changer for sales & business development</p>
-                                <Link href="/blog/leveraging-ai-for-sales-and-business-development" target='_blank'>Read more</Link>
+                                <h5 className="card-title">Does Your Startup Really Need Investors?</h5>
+                                <p className="card-text">Securing investment is a major milestone for any startup</p>
+                                <Link href="/blog/3-does-your-startup-really-need-investors" target='_blank'>Read more</Link>
                             </div>
                         </div>
                     </div>

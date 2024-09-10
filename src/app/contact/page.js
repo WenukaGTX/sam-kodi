@@ -17,7 +17,7 @@ export default function Page() {
           </div>
           <div className='col-md-6 text-center'>
             <p>Email to</p>
-            <h2><Link href="tel:+16138803700">svkodituwakku@gmail.com</Link></h2>
+            <h2><Link href="mailto:viraj@fractionalcro.ca">viraj@fractionalcro.ca</Link></h2>
           </div>
         </div>
       </div>
