@@ -44,7 +44,7 @@ export default function Navbar() {
                             <Link href="/contact" className="nav-link">Contact</Link>
                         </li>
                         <li className="nav-item text-center">
-                            <Link href="https://calendly.com/sameeraviraj/30min?month=2024-09" className="btn btn-primary" rel="noopener noreferrer" target="_blank">Book a date</Link>
+                            <Link href="https://calendly.com/sameeraviraj/30min?month=2024-09" className="btn btn-primary" rel="noopener noreferrer" target="_blank">Schedule a call</Link>
                         </li>
                         {/* <li className="nav-item">
                             <ThemeToggle />

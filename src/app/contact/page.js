@@ -13,7 +13,7 @@ export default function Page() {
         <div className='row pt-5'>
           <div className='col-md-6 mb-xs-4 text-center'>
             <p>Call us on</p>
-            <h2><Link href="tel:+16138803700">+(161)38803700</Link></h2>
+            <h2><Link href="tel:+16138803700">+1 (613) 880 3700</Link></h2>
           </div>
           <div className='col-md-6 text-center'>
             <p>Email to</p>
