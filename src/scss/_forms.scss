@@ -11,13 +11,6 @@
         font-size: 1rem;
         min-height: 3rem;
     }
-
-    @media (max-width: 768px) {
-        &.form-control-lg {
-            min-height: 3.5rem;
-            font-size: 1.3rem;
-        }
-    }
 }
 
 // End text inputs
@@ -26,6 +19,7 @@
 
 .btn {
     line-height: 1.6;
+    font-weight: 500;
 
     &.btn-primary {
         font-size: 1rem;
@@ -76,11 +70,6 @@
     }
 
     @media (max-width: 768px) {
-        &.btn-lg {
-            min-height: 3.5rem;
-            font-size: 1.3rem;
-        }
-
         &.btn-w100 {
             width: 100%;
         }

@@ -6,17 +6,20 @@ export default function Footer() {
     return (
         <footer className="footer bg-dark text-white">
             <div className="container">
-                <h4 className="footer-title">Enki</h4>
-                <div className="row">
+                <div className="d-flex align-items-center justify-content-between">
+                    <h4 className="footer-title mb-0">Enki</h4>
+                    <Link href="https://www.linkedin.com/in/sameeraviraj/" target='_blank'>Linkedin</Link>
+                </div>
+                {/* <div className="row">
                     <div className="col-md-3">
                         <ul>
                             <li>Links</li>
                             <li><Link href="/">Home</Link></li>
-                            {/* <li><Link href="/about">About</Link></li> */}
-                            {/* <li><Link href="/services">Services</Link></li> */}
-                            {/* <li><Link href="/case-studies">Case Studeis</Link></li> */}
+                            <li><Link href="/about">About</Link></li>
+                            <li><Link href="/services">Services</Link></li>
+                            <li><Link href="/case-studies">Case Studeis</Link></li>
                             <li><Link href="/blog">Blog</Link></li>
-                            {/* <li><Link href="/faq">FAQs</Link></li> */}
+                            <li><Link href="/faq">FAQs</Link></li>
                             <li><Link href="/contact">Contact</Link></li>
                         </ul>
                     </div>
@@ -45,7 +48,7 @@ export default function Footer() {
                             <li><Link href="/terms">Terms & Conditions</Link></li>
                         </ul>
                     </div>
-                </div>
+                </div> */}
                 <div className="footer-bottom">
                     <p className="text-center"><b>Made in Sri Lanka</b> • Copyright © 2024 Enki. All rights reserved
                     </p>
