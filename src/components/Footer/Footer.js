@@ -7,7 +7,14 @@ export default function Footer() {
         <footer className="footer bg-dark text-white">
             <div className="container">
                 <div className="d-flex align-items-center justify-content-between">
-                    <h4 className="footer-title mb-0">Enki</h4>
+                    {/* <h4 className="footer-title mb-0">Enki</h4> */}
+                    <Image
+                        src="/Enki_logo.svg"
+                        alt="Enki logo"
+                        width={122}
+                        height={48}
+                        priority
+                    />
                     <Link href="https://www.linkedin.com/in/sameeraviraj/" target='_blank'>Linkedin</Link>
                 </div>
                 {/* <div className="row">
