@@ -3,7 +3,7 @@ id: "08"
 title: "Shaping Your Startup: Building a High Performing Sales Team"
 date: "July 13, 2024"
 description: "Ideas evolve into products, sparking the launch of a startup"
-slug: "building-high-performing-sales-team"
+slug: "1-building-high-performing-sales-team"
 image: "building-high-performing-sales-team.png"
 ---
 

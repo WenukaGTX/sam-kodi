@@ -3,7 +3,7 @@ id: "07"
 title: "Understanding Lean Startups"
 date: "August 19, 2024"
 description: "Lean startup methodology has emerged as a transformative approach"
-slug: "understanding-lean-startups"
+slug: "2-understanding-lean-startups"
 image: "understanding-lean-startups.png"
 ---
 

@@ -3,7 +3,7 @@ id: "06"
 title: "Does Your Startup Really Need Investors?"
 date: "September 1, 2024"
 description: "Securing investment is a major milestone for any startup"
-slug: "does-your-startup-really-need-investors"
+slug: "3-does-your-startup-really-need-investors"
 image: "does-your-startup-really-need-investors.png"
 ---
 

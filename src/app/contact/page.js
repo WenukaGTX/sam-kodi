@@ -7,7 +7,7 @@ export default function Page() {
         <div className="page-header">
           <p className="fw-bold mb-4 text-primary">Contact</p>
           <h2 className="fw-bold">How can we help?</h2>
-          <p className="w-50 mx-auto d-none d-sm-block">We are here to help and answer any question you might have, We look forward to hearing from you</p>
+          <p className="w-50 mx-auto d-none d-sm-block">We are here to help and answer any question you might have. We look forward to hearing from you</p>
         </div>
 
         <div className='row pt-5'>
